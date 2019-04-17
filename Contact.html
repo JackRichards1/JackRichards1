@@ -46,7 +46,7 @@
 
 <h1 style="font-family:Helvetica; text-align:center;" >Get In Touch With Us! </h1>
 
-<div style="width: 100%; height: 40vh; background: #C81E1E ;">
+<div style="width: 100%; height: 45vh; background: #C81E1E ;">
     <p style="font-family:Helvetica; color:white; text-align: center; padding: 10px;">Hello and welcome to Richards Architecture. <br> 
         As a business, we value customer interaction highly, which is why we have developed several means of which you can contact us by, just fill in the form below and one of our team will be in touch. <br>
     Please fill in a slight description of your query and one of our team who are best suited for your neeeds will be in touch within twenty-four hours.</p>
@@ -58,22 +58,45 @@
         <br>
     </form>
 <br>
-<div style="font-family:Helvetica; color:white; text-align: center;"></p>My Query is Related to: </p>
+    <form>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other <br>
+        <br>
+    </form>
+
+    <div style="font-family:Helvetica; color:white; text-align: center;"></p>My Query is Related to: </p>
     <select name="Query">
+        <option value="volvo">-Pick an option from the list below-</option>
         <option value="volvo">Interior</option>
         <option value="saab">Exterior</option>
         <option value="fiat">Landscape</option>
         <option value="audi">Other</option>
     </select>
-<br>
-<br>
-<form>
-    <input type="radio" name="gender" value="male" checked> Male<br>
-    <input type="radio" name="gender" value="female"> Female<br>
-    <input type="radio" name="gender" value="other"> Other <br>
     <br>
-    <input type="submit">
-</form>
+    <br>
+    <form action="/action_page.php">
+        <textarea name="message" style="width:300px; height:100px;">Please give us a small description of your query in this text area so we can assign one of our team most suited to your query to best assist you!</textarea>
+        <br>
+        <input type="submit">
+    </form>
+<br>
+
+<h2 style="font-family:Helvetica; color: black; text-align:center;">Other Ways To Get In Touch! </h2>
+
+<div style="width: 100%; height: 35vh; background: #C81E1E ;">
+<p style="font-family:Helvetica; color: white; text-align: center; padding: 10px;">You can also visit us at our center office in Bournemouth: <br>
+        Pine Court Business Centre, 5 <br> 36 Gervis Rd <br> Bournemouth <br> BH1 3DH
+    <br>
+    <p style="font-family:Helvetica; color: white; text-align: center; padding: 10px;"> Our opening times are as follows: <br><br>
+    Monday: 9am - 5:30pm<br>
+    Tuesday: 9am - 5:30pm<br>
+    Wednesday: 9am - 5:30pm<br>
+    Thursday: 9am - 5:30pm<br>
+    Friday: 9am - 5:30pm<br>
+<br>
+    Bank Holidays: 10am - 3pm (Please be aware not all staff may be available during bank holidays)</p>
+    
 
 </body> 
 </html>
