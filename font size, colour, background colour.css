@@ -203,3 +203,5 @@ body {
      float: none;
 }
 }
+
+p.solid {border-style: solid;}
